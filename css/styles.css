@@ -1,0 +1,379 @@
+    .display_part {
+       margin: auto;
+       font-family: sans-serif;
+       box-shadow: 0px 5px 5px 5px #888888;
+       -moz-box-shadow: 0px 5px 5px 5px #888888;
+       -webkit-box-shadow: 0px 5px 5px 5px #888888;
+    }
+     
+    #background {
+       margin: auto;
+       width: 90%; 
+       height: 100%; 
+       position: fixed; 
+       left: 20px; 
+       right: 0px; 
+       top:   0px; 
+       z-index: -1; /* To ensure that div tag stays behind the content*/
+     }
+
+    .stretch {
+      position: center; 
+      width: 90%;
+      height: 100%;
+    }
+    
+    .master_header{
+       position: relative;
+       margin: auto;
+       width:  95%;
+       height: 150px;
+       padding: 10px;
+       border-width: 0px 0px 0px 0px;
+       border-style: solid;
+       border-color: #870052;
+       font-family: sans-serif;       
+    }
+
+    .top_menu {
+       position: absolute;
+       top:  1px;
+       left: 0px;
+       width:  100%;
+       padding: 1px;
+       background-color: #870052;
+       color: #FFFFFF;
+       text-align: right;
+       font-family: sans-serif;
+       font-size: 12px;
+       font-weight:normal;
+       border-width: 1px 0px 1px 0px;
+       border-style: solid;
+       border-color: #870052;
+       margin: auto;                     
+    }
+
+    .top_menu ul {
+      background: #FFFFFF;
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+      bottom: 0px;
+      left: 10px;
+    }
+    
+    .top_menu  ul li {
+      float: right;      
+      background-color: #870052;
+      margin: 0 1px 0 0;
+      display: inline;
+      font-size:90%;
+    }
+
+    .top_menu  ul li a:link {
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+
+    .top_menu  ul li a:visited {
+      color: #FFFFFF;
+      text-decoration: none;
+    }    
+
+    #top_menu_abwe {
+     border-width: 0px 1px 0px 0px;
+     border-style: solid;
+     border-color: #FFFFFF;           
+     padding: 0 5px 0 0;
+    }
+
+    #top_menu_sitemap {
+     padding: 0 5px 0 5px;
+    }
+
+    #top_menu_contacts {
+     border-width: 0px 0px 0px 1px;
+     border-style: solid;
+     border-color: #FFFFFF;           
+     padding: 0 5px 0 5px;
+    }
+
+    #top_header_name {
+      top:  0px;
+      right: 130px;
+      font-family: sans-serif; 
+      color:  #870052;
+      text-align: center;
+      font-family: sans-serif;
+      font-size: 30px;
+      font-weight:normal;      
+    }
+    
+    #img_KI_logo {
+      position: absolute;
+      top:  22px;
+      left: 1px;
+      font-family: sans-serif; 
+    }
+
+    #img_HPVref_logo {
+      position: absolute;
+      top:  18px;
+      right: 0px;
+      font-family: sans-serif; 
+    }
+
+    .topbar {
+       position: absolute;
+       top:   128px; 
+       left:  0px;
+       width:  100%;
+       padding: 2px;
+       background-color: #870052;
+       color: #FFFFFF;
+       text-align: center;
+       font-family: sans-serif;
+       font-size: 20px;
+       font-weight:normal;
+       border-width: 1px 0px 1px 0px;
+       border-style: solid;
+       border-color: #870052;              
+       margin: auto;       
+    }
+
+
+    #globalNav {
+      position: absolute;
+      margin: auto;      
+      top:   99px; 
+      left:  210px;
+      background: #FFFFFF;
+      font-family: sans-serif; 
+    }
+
+    #globalNav ul {
+      display:inline-block;
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+      bottom: 0px;
+      z-index:3;
+      *float:left;
+    }
+
+    #globalNav ul .selected {
+      float: left;
+      background-color: #870052;
+      padding: 0 4px 0 0;
+      margin: 0 1px 0 0;
+      display: inline;
+	  border-bottom: 1px solid #870052;
+	  font-family: sans-serif;
+    }
+    
+    #globalNav ul li {
+      float: left;      
+      background-color: #663366;
+      padding: 0 4px 0 0;
+      text-align: center;      
+      margin: 0 1px 0 0;
+      white-space: nowrap;
+      border-bottom: 1px solid #FFFFFF;
+      font-size:90%;
+      border-top-left-radius: 5px 5px;
+      border-top-right-radius: 5px 5px;
+    }
+  
+  
+    #globalNav ul li a:link {
+      float: left;
+      display: block;
+      padding: 6px 4px 6px 8px;
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+    
+    #globalNav ul li a:visited {
+      float: left;
+      display: block;
+      padding: 6px 4px 6px 8px;
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+
+    #globalNav ul li a:hover {
+      float: left;
+      display: block;
+      padding: 6px 4px 6px 8px;
+      color: #FFFFFF;
+      text-decoration: underline;
+    }
+
+
+    .content{
+       margin: auto;
+       padding: 0px 0px 10px 0px;
+       font-family: sans-serif;
+    }
+
+    .center_text {
+       margin: auto;
+       vertical-align: top;
+       text-align: center;
+       font-family: sans-serif;
+    }  
+
+    .left_text {
+       margin: auto;
+       vertical-align: top;
+       padding: 0px 40px 40px 40px;
+       text-align: left;
+       font-family: sans-serif;
+    }
+
+
+
+    #home_text {
+       margin: auto;
+       padding: 40px 100px 0px 80px;
+       vertical-align: top;
+       text-align: left;
+       font-family: sans-serif;
+       font-size:120%;
+    }
+     
+    .display_with_sibar_logos{
+     position: relative;
+     margin: auto;
+     width:  1000px;
+    }
+
+    #table_between_sibar_logos {
+     position: absolute;
+    }
+
+
+    #sidebar_logos_left {
+       position: absolute;
+       left: -130px;
+       width:  140px;
+       height: 100%;
+       padding: 0px 0px 0px 0px;
+    }
+
+    #sidebar_logos_left a img {
+      display: block;
+      padding: 10px 10px 10px 10px;
+      bottom: 20px;
+      vertical-align:top;
+    }
+
+    #sidebar_logos_right {
+       position: absolute;
+       right:  -100px;
+       width:  140px;
+       height: 100%;
+       padding: 0px 0px 0px 0px;
+    }
+
+    #table_with_newsbar_right {
+     position: absolute;
+     left:  -130px;
+     width:  1050px;
+    }
+
+    #newsbar_right {
+       position: absolute;
+       right:  -100px;
+       width:  180px;
+       height: 100%;
+       padding: 1px;
+       border-width: 1px;
+       border-style: solid;
+       border-color: #870052;
+       font-family: sans-serif;              
+    }
+   
+    #news_topbar{
+       background-color: #870052;
+       color: #FFFFFF;
+       text-align: center;
+    }
+
+    #sidebar_logos_right a img {
+      padding: 10px 10px 10px 10px;
+      bottom: 20px;
+      vertical-align:top;
+    }
+
+   .Post_table {
+       padding: 0px 40px 40px 40px;
+       width:95%;
+    }
+ 
+   .Post {
+	  border-bottom: 1px solid #D8D8D8;   
+	  padding: 1px; 
+      font-size: 90%;  
+    }
+
+   .Post_footer {
+       background-color: #C0C0C0; 
+       color: #FFFFFF;
+       font-size: 0.75em;
+   }
+
+    #refclones {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: #870052;
+    color: #870052; 
+    margin: auto;
+    font-family: "Times New Roman";
+    }
+
+    #transfer_photo {
+     position: absolute;
+     top: 300px;
+     left: 90px;
+     width: 788px;
+    }
+
+    #table_footer {
+      color: #666666;
+      font-family: "Times New Roman";
+      font-size: 0.75em;
+    }
+    
+    #page_footer {
+    border-top: 6px solid #E7E7E7;
+    margin-top: 0.6em;
+    color: #666666;
+    font-family: "Times New Roman";
+    font-size: 0.75em;    
+    }
+
+    #Virus_name             {width: 100px;}    
+    #Genus_name             {width: 100px;}
+    #Genus_Species_name     {width: 120px;}    
+    #GenBank_ID             {width: 100px;}    
+    #Date_submitted         {width: 120px;}
+     
+    .bottombar {
+       position: relative;
+       bottom:  -70px;
+       left: 0px;
+       width:  100%;
+       padding: 1px;
+       background-color: #870052;
+       border-width: 1px 0px 1px 0px;
+       border-style: solid;
+       border-color: #870052;
+       margin: auto;                     
+   }
+   
+   
+
+
+   
