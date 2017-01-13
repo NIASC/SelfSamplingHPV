@@ -1,8 +1,8 @@
 <?php
 
          $host = "localhost";          //address to the server where database resides
-         $user = "root";            //login id
-         $pw   = "root";                //password
+         $user = "user";            //login id
+         $pw   = "password";                //password
          $database = "database_name";     //database name
 
          $db = mysql_connect($host,$user, $pw) or die("Cannot connect to MySQL.");
